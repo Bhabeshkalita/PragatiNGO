@@ -1,0 +1,17 @@
+.featureBox{
+    // display: flex;
+    // flex-direction: row;
+    // flex-wrap: wrap;
+    // justify-content: space-between;
+    // margin-top: 2rem;
+    width: 92%;
+    margin:4rem auto;
+    // height: 450px;
+    &_card{
+        // width: 2%;
+        height: 400px;
+        padding: 0.5rem;
+        // height: 100px;
+        // margin:0 1rem;
+    }
+}

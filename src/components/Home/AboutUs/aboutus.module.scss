@@ -1,0 +1,59 @@
+.aboutus{
+    background-color: rgb(226, 223, 223);
+    &_container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+        padding:4rem 0rem;
+        &_image{
+            width: 47%;
+            margin: auto;
+            text-align: center;
+            padding: 1rem;
+            & img{
+                width: 100%;
+            }
+        }
+        &_content{
+            width: 47%;
+            padding: 1rem;
+            &_h4{
+                color: rgb(43, 41, 41);
+                font-size: 3rem;
+                text-transform: uppercase;
+                font-family: 'Dongle', sans-serif;
+                margin-bottom: 1.8rem;
+            }
+            &_h5{
+                font-size: 1.7rem;
+                font-family: 'Lato', sans-serif;
+                margin-bottom: 1.1rem
+            }
+            &_p1,
+            &_p2{
+                font-size: 1.2rem;
+                line-height: 2rem;
+                margin-bottom: 1.1rem;
+            }
+            // &_p1{
+            //     margin-bottom: 1.1rem;
+            // }
+            &_button{
+                padding: 0.5rem 1rem;
+                background: transparent;
+                border: 1px solid black;
+                cursor: pointer;
+                & a{
+                    text-decoration: none;
+                    font-size: 1.1rem;
+                    color: black;
+                    letter-spacing: 1px;
+
+                }
+            }
+        }
+    }
+}

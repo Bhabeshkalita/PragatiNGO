@@ -1,0 +1,20 @@
+.sliderCard{
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    &_describe{
+        width: 35%;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translate(-10% , -50%);
+    }
+    &_image{
+        width: 100%;        
+        & img{
+            object-fit: cover;
+            object-position: center;
+            width: 100%;
+        }
+    }
+}

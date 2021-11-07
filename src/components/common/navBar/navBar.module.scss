@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.267);
+    padding: 0.7rem 2rem;
+    transition: ease 0.5s;
+    &_logo{
+        display: flex;
+        align-items: center;
+        & img{
+            width: 65%;
+            margin: auto;
+            // border: 1px solid red;
+        }
+        &_title{
+            // border: 1px solid red;
+            &_h3{
+                margin: 0 !important;
+                // color: black ;
+                & a{
+                    text-decoration: none;
+                    color: white;
+                    font-weight: 400;
+                    font-size: 1.8rem;
+                    text-transform: uppercase;
+                    letter-spacing: 0.5px;
+                    font-family: 'Montserrat', sans-serif;
+                }
+            }
+
+        }
+    }
+    &_page{
+        display: flex;
+        &_link{
+            margin: 1rem;
+            & a{
+                text-decoration: none;
+                color: white;
+                letter-spacing: 0.5px;
+                font-family: 'Montserrat', sans-serif;
+            }
+        }
+    }
+}
+.navscroll{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0.9rem 2rem;
+    transition: ease 0.5s;
+    &_logo{
+        display: flex;
+        align-items: center;
+        & img{
+            width: 65%;
+            margin: auto;
+            // border: 1px solid red;
+        }
+        &_title{
+            // border: 1px solid red;
+            &_h3{
+                margin: 0 !important;
+                // color: black ;
+                & a{
+                    text-decoration: none;
+                    color: black;
+                    font-weight: 400;
+                    font-size: 1.8rem;
+                    text-transform: uppercase;
+                    letter-spacing: 0.5px;
+                    font-family: 'Montserrat', sans-serif;
+                }
+            }
+
+        }
+    }
+    &_page{
+        display: flex;
+        &_link{
+            margin: 1rem;
+            & a{
+                text-decoration: none;
+                color: black;
+                letter-spacing: 0.5px;
+                font-family: 'Montserrat', sans-serif;
+            }
+        }
+    }
+}
