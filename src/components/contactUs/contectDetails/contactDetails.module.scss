@@ -1,0 +1,44 @@
+.contectDetails{
+    width: 70%;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 23%);
+    &_details{
+        width: 47%;
+        // margin: auto;
+        box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 23%);
+        // height: 100%;
+        padding: 1rem 1.5rem;
+        &_p1,
+        &_p2,
+        &_p3,
+        &_p4{
+            font-size: 1.2rem;
+            // margin: 1rem 0;
+            // border-bottom: 1px solid red;
+            box-shadow: 0px 1px 5px 0px rgb(0 0 0 / 23%);
+            padding: 1rem 0.5rem;
+            margin:0.1rem auto;
+            
+            & span{
+                // margin: auto;
+                vertical-align: middle;
+                & svg{
+                    color: #a3ff48;
+                   height: 2rem;
+                   width: 2rem;
+                }
+            }
+        }
+        // border: 1px solid red;
+    }
+    &_map{
+        width: 50%;
+        margin: auto;
+        box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 23%);
+    }
+}

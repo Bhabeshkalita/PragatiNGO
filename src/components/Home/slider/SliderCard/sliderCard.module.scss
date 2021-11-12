@@ -1,5 +1,5 @@
 .sliderCard{
-    height: 100vh;
+    max-height: 100vh;
     position: relative;
     overflow: hidden;
     &_describe{
@@ -16,5 +16,22 @@
             object-position: center;
             width: 100%;
         }
+    }
+    @media only screen and (max-width:1024px){
+        &_describe{
+            width: 45%;
+            // position: absolute;
+            // top: 50%;
+            // left: 10%;
+            // transform: translate(-10% , -50%);
+        }
+        // &_image{
+        //     width: 100%;        
+        //     & img{
+        //         object-fit: cover;
+        //         object-position: center;
+        //         width: 100%;
+        //     }
+        // }
     }
 }

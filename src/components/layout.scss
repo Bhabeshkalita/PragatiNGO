@@ -40,6 +40,28 @@ body {
   background: grey;
   transition: ease 0.3s all 0.2s;
 }
+
+.verticalSlider .slick-dots {
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  transform: translate(0% ,-50%);
+  bottom: unset;
+  text-align: unset;
+  width: unset;
+}
+.verticalSlider .slick-dots li{
+  /* position: absolute; */
+  display: unset;
+  margin: unset;
+  /* z-index: 100; */
+  /* right: 0; */
+  /* top: 40%; */
+}
+.verticalSlider .slick-dots li button::before{
+  font-size: 16px;
+}
+
 // .NGOSlider{
 //   padding: 1.5rem;
 // }

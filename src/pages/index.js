@@ -11,17 +11,20 @@ import HomeSlider from "../components/Home/slider/slider"
 import FeatureBox from "../components/Home/featuresBox/featureBox"
 import AboutUs from "../components/Home/AboutUs/aboutUs"
 import InternWithUs from "../components/Home/internWithUs/internWithUs"
-import Donate from "../components/Home/donate/donate"
+import Donate from "../components/common/donate/donate"
+import FixWidth from "../widthTemplate/widthTemplate"
 
 const IndexPage = () => (
+  <FixWidth>
   <Layout>
     <Seo title="Home" />
     <HomeSlider />
     <FeatureBox />
     <AboutUs />
     <InternWithUs />
-    <Donate />   
+    <Donate /> 
   </Layout>
+  </FixWidth>  
 )
 
 export default IndexPage

@@ -31,4 +31,21 @@
             
         }
     }
+    @media only screen and (max-width:1024px){
+        &_h2{
+            font-size: 2.4rem;
+            margin-bottom: 1.5rem;
+        }
+        &_p{
+            font-size: 1.4rem ;
+            margin-bottom: 1.5rem;
+            line-height: 2rem;
+        }
+        &_button{
+            & a{
+                font-size: 1rem;
+                
+            }
+        }
+    }
 }

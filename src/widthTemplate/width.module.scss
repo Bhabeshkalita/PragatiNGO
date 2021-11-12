@@ -1,0 +1,17 @@
+.width{
+    max-width: 1600px;
+    margin: auto;
+    animation: pageFade 1s ease ;
+    @media only screen and (max-width:1330px){
+        max-width: 1330px;
+        margin: auto;
+    }
+}
+@keyframes pageFade {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+}

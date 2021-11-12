@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import * as style from './featureCard.module.scss';
 
 // import icon from '../../../../images/cardIcon/png/collaboration.png'

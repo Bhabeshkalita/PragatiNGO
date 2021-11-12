@@ -1,0 +1,21 @@
+.whatwecare{
+    margin: 7rem 0;
+    &_heading{
+        text-align: center;
+        margin-bottom: 2.5rem;
+        &_h4{
+            font-size: 3.2rem;
+            font-weight: 400;
+            letter-spacing: 1px;
+            font-family: "Poppins", sans-serif;
+        }
+    }
+    &_card{
+        // padding: 1rem;
+        box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 23%);
+        width: 65%;
+        margin: auto;
+        // height: 400px;
+        // padding: 1rem;
+    }
+}
